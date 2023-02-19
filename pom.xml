@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>PluginFastTemplate</artifactId>
+    <groupId>me.xiaozhangup.monkeygrapplinghook</groupId>
+    <artifactId>MonkeyGrapplingHook</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -61,6 +61,13 @@
             <artifactId>VaultAPI</artifactId>
             <version>1.7</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.oraxen</groupId>
+            <artifactId>oraxen</artifactId>
+            <version>1.152.0</version>
+            <scope>system</scope>
+            <systemPath>/home/xiaozhangup/IdeaProjects/MonkeyGrapplingHook/libs/oraxen-1.151.3.jar</systemPath>
         </dependency>
     </dependencies>
 

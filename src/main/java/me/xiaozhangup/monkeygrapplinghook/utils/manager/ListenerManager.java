@@ -1,4 +1,4 @@
-package org.example.utils.manager;
+package me.xiaozhangup.monkeygrapplinghook.utils.manager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.example.Main.plugin;
+import static me.xiaozhangup.monkeygrapplinghook.MonkeyGrapplingHook.plugin;
 
 public class ListenerManager {
 

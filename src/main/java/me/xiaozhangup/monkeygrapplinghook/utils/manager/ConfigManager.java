@@ -1,4 +1,4 @@
-package org.example.utils.manager;
+package me.xiaozhangup.monkeygrapplinghook.utils.manager;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -6,7 +6,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import java.io.File;
 import java.io.IOException;
 
-import static org.example.Main.plugin;
+import static me.xiaozhangup.monkeygrapplinghook.MonkeyGrapplingHook.plugin;
 
 public class ConfigManager {
 

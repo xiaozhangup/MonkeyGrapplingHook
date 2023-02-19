@@ -1,4 +1,9 @@
-name: PluginName
+name: MonkeyGrapplingHook
 version: ${project.version}
 api-version: 1.16
-main: org.example.Main
+depend:
+  - Oraxen
+main: me.xiaozhangup.monkeygrapplinghook.MonkeyGrapplingHook
+
+commands:
+  gethook:
